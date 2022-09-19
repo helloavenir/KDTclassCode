@@ -1,0 +1,11 @@
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+.item:first-child {
+  border: 4px solid red;
+  padding: 10px;
+  /* 요소의 전체적인 레이아웃 크기를 유지하고 싶으므로 다음 조건 사용*/
+  box-sizing: border-box;
+}
