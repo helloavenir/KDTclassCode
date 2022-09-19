@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div {
+      border: 3px solid red;
+      width: 200px;
+      height: 120px;
+      background-image: url("https://heropy.blog/images/screenshot/generate-3d-photo-by-pixijs/pikachu.jpg");
+      background-size: cover;
+      text-indent: -9999px;
+    }
+  </style>
+</head>
+<body>
+  <div>피카츄</div>
+  
+</body>
+</html>
