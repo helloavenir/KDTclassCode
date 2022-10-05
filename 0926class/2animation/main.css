@@ -1,0 +1,24 @@
+.container {
+  height: 500px;
+  border: 4px solid red;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  border: 4px solid;
+  /* css에서는 밀리세컨드 단위보다는 그냥 세컨드 단위로 사용 */
+  /* infinite 무한 반복 cf. alternate을 한 칸 띄고 붙여 작성하여 좌우로 반복 */
+  animation: merryMary 2s infinite;
+}
+
+/* 동작할 애니메이션 만들기 */
+@keyframes merryMary {
+  0% { 
+    transform: translateX(0);
+    background-color: #ff0000; 
+  }
+  100% { 
+    transform: translateX(200px);
+    background-color: #000; 
+  }
+}
